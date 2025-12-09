@@ -28,7 +28,7 @@
         <div class="container">
             <h2>DCBprotect Transparent- Partner Page</h2>
             <p>Tip: Try with a VPN to simulate fraud scenario</p>
-            <h3>Username: <?php echo $owner; ?></h3>
+            <h3>Owner Username: <?php echo $owner; ?></h3>
             <h3>Transaction ID: <?php echo $ti; ?></h3>
             <button id="cta_btn" onclick="checkStatus()">Click to Continue</button>
             <div id="alertBox"></div>
@@ -67,4 +67,5 @@
         }
         </script>
     </body>
+
 </html>
