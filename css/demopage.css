@@ -1,0 +1,67 @@
+/* Minimal reset & font */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f9f9f9; /* light theme */
+    color: #111;
+}
+
+/* Container card */
+.container {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+    text-align: center;
+    max-width: 800px;
+    width: 90%;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 1.8rem;
+    color: #555;
+    word-break: break-word;
+}
+
+/* Button styling */
+#cta_btn {
+    background: linear-gradient(135deg, #6b5bff, #8b7cff);
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+#cta_btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(107, 91, 255, 0.3);
+}
+
+/* Alert styling */
+.alert {
+    margin-top: 1.5rem;
+    padding: 0.9rem 1.2rem;
+    border-radius: 0.8rem;
+    font-size: 0.95rem;
+}
+
+.alert.success { background-color: #d1fae5; color: #065f46; }
+.alert.error { background-color: #fee2e2; color: #991b1b; }
