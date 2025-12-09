@@ -2,14 +2,14 @@
 
 class DCBProtect
 {
-    private $apiMainKey = "uWQTkF0GlI1hDpjpTwLnkDbhojhPsb6iYaDKgAdfkfng5kfkZcrD2pnsVV2O0xd6"; // API key for Hosted Page, Redirect, and /check API integration
-    private $apiSecondaryKey = "1ZBx6WzRpMNp5vDDVTn7NPrVkkDvX4y2lQbSqTXYjYtKlGyKvuieePM5BWIbaTkP"; // API key for transparent integration
-    private $country = "AE"; // Default AE country
+    private $apiMainKey = "<<Your Main API Key>>"; // API key for Hosted Page, Redirect, and /check API integration
+    private $apiSecondaryKey = "<<Your Secondary API Key>>"; // API key for transparent integration
+    private $country = "<<country_code>>"; // Default AE country
     private $urlScript = "https://api.clfldcbprotect.com/v1/script"; // Cloudflare Get script API URL
     private $urlCheck = "https://api.clfldcbprotect.com/v1/check"; // Cloudflare check transactionAPI URL
-    private $pl = ["muhammad"]; //Permission list for transparent integration
+    private $pl = ["<<partner_username>>"]; //Permission list for transparent integration
     private $type; 
-    private $targetElement = "#cta_btn"; //HTML element to check transaction status
+    private $targetElement = "<<html_elelemt>>"; //HTML element to check transaction status
 
     public function __construct($type = "")
     {
@@ -215,3 +215,4 @@ class DCBProtect
 }
 
 ?>
+
