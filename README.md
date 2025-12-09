@@ -9,16 +9,6 @@ The demo site contains four flows:
 3.	Transparent Integration
 4.	Manual Script Integration
    
-**Table of Contents**
-•	Deployment
-•	Integration Flows
-1.	Hosted Page Integration
-2.	Redirect Integration
-3.	Transparent Integration
-4.	Manual Script Integration
-•	Fraud and Authentic Testing
-•	Difficulties and Solutions
-
 **Deployment**
 1.	Requirements
 o	PHP 7.4 or higher with cURL enabled
