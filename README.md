@@ -12,10 +12,10 @@ The demo site contains four flows:
 **Table of Contents**
 •	Deployment
 •	Integration Flows
-o	1. Hosted Page Integration
-o	2. Redirect Integration
-o	3. Transparent Integration
-o	4. Manual Script Integration
+   1.	Hosted Page Integration
+   2.	Redirect Integration
+   3.	Transparent Integration
+   4.	Manual Script Integration
 •	Fraud and Authentic Testing
 •	Difficulties and Solutions
 
