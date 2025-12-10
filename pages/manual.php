@@ -4,7 +4,6 @@
         <title>Evina Manual Script Demo</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://demo.setllartech.com/evina/css/demopage.css">
     </head>
@@ -20,6 +19,7 @@
         <script>
             let ti = null;
             document.addEventListener("DOMContentLoaded", () => {
+                // Fetching the Script after DOMContentLoaded
                 getScript();
             });
             
@@ -61,10 +61,12 @@
                     const div = document.createElement("div");
                     div.classList.add("alert");
                     div.classList.add("success");
+
+                    //Success message displayed for 5 sec once script is loaded
                     div.textContent = "Script loaded successfully ";
                     alertBox.appendChild(div);
                     
-                    // Remove the alert after 3 seconds
+                    // Remove the alert after 5 seconds
                     setTimeout(() => {
                         div.remove();
                     }, 5000);
@@ -104,4 +106,5 @@
             }
         </script>
     </body>
+
 </html>
