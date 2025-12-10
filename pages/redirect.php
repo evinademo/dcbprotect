@@ -1,5 +1,5 @@
 <?php
-
+    //Server side request to Get script before DOMContentLoaded
     require '../lib/DCBProtect.php';
     $evina = new DCBProtect("redirect");
     
@@ -16,7 +16,6 @@
         <script>
             <?php echo $js; ?>
         </script>
-    
     </head>
     <body>
     </body>
