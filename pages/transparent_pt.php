@@ -19,7 +19,6 @@
         <!-- Inject Evina JS BEFORE DOMContentLoaded -->
         <script> <?php echo $js; ?> </script>
         
-        <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://demo.setllartech.com/evina/css/demopage.css">
     </head>
@@ -33,13 +32,13 @@
             <button id="cta_btn" onclick="checkStatus()">Click to Continue</button>
             <div id="alertBox"></div>
         </div>
-
         <script>
-        function checkStatus() {
             
+        // Partner checking the transaction status
+        function checkStatus() {
             const ti= "<?php echo $ti; ?>";
             const owner= "<?php echo $owner; ?>";
-            
+
             fetch("https://demo.setllartech.com/evina/app/check_transaction.php", {
                 method: "POST",
                 headers: {"Content-Type": "application/json"},
@@ -67,5 +66,4 @@
         }
         </script>
     </body>
-
 </html>
