@@ -14,18 +14,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
     <title>Evina Hosted Page Demo</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <!-- Inject Evina JS BEFORE DOMContentLoaded -->
     <script> <?php echo $js; ?> </script>
-    
-    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://demo.setllartech.com/evina/css/demopage.css">
-
 </head>
 <body>
 
@@ -68,6 +63,5 @@
         .catch(err => console.error(err));
     }
     </script>
-
 </body>
 </html>
